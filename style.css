@@ -1,0 +1,54 @@
+.container {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.row{
+border: 1px black solid;
+padding: 10px;
+margin: 10px;
+text-align: left;
+min-height: 1px;
+}
+
+.col-1 {
+border: 1px black solid;
+float:left;
+text-align: center;
+min-height: 1px;
+/*margin: 1em;*/
+
+}
+
+.col-4 {
+border: 1px black solid;
+text-align: center;
+display: inline-block;
+min-height: 1px;
+float:left;
+margin: 1em;
+
+}
+
+.col-6 {
+border: 1px black solid;
+display: inline-block;
+text-align: center;
+min-height: 1px;
+float:left;
+/*margin: 1em;*/
+
+}
+
+.col-8 {
+border: 1px black solid;
+text-align: center;
+display: inline-block;
+min-height: 1px;
+float:left;
+
+}
